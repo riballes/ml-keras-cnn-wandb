@@ -1,0 +1,629 @@
+diff --git a/.gitignore b/.gitignore
+old mode 100644
+new mode 100755
+diff --git a/LICENSE b/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/README.md b/README.md
+old mode 100644
+new mode 100755
+diff --git a/aws.md b/aws.md
+old mode 100644
+new mode 100755
+diff --git a/config-defaults.yaml b/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/female.txt b/female.txt
+old mode 100644
+new mode 100755
+diff --git a/international-airline-passengers.csv b/international-airline-passengers.csv
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/autoencoder.py b/keras-autoencoder/autoencoder.py
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/autoencoder_cnn.py b/keras-autoencoder/autoencoder_cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/denoising_autoencoder.py b/keras-autoencoder/denoising_autoencoder.py
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/denoising_autoencoder_cnn.py b/keras-autoencoder/denoising_autoencoder_cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/run_autoencoder.py b/keras-autoencoder/run_autoencoder.py
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/run_autoencoder_norm.py b/keras-autoencoder/run_autoencoder_norm.py
+old mode 100644
+new mode 100755
+diff --git a/keras-autoencoder/wandb/settings b/keras-autoencoder/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-cifar-download.py b/keras-cifar-download.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cifar/cifar-cnn.py b/keras-cifar/cifar-cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cifar/cifar-download.py b/keras-cifar/cifar-download.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cifar/cifar-eval.py b/keras-cifar/cifar-eval.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cifar/config-defaults.yaml b/keras-cifar/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-cifar/wandb/settings b/keras-cifar/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/cnn-inspect.py b/keras-cnn/cnn-inspect.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/cnn.py b/keras-cnn/cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/config-defaults.yaml b/keras-cnn/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/conv-demo.py b/keras-cnn/conv-demo.py
+old mode 100644
+new mode 100755
+index dd56286..6c06494
+--- a/keras-cnn/conv-demo.py
++++ b/keras-cnn/conv-demo.py
+@@ -3,9 +3,9 @@ import numpy
+ from scipy.signal import convolve2d
+ 
+ 
+-kernel = [[0.0,-1.0,0.0],
+-          [-1.0,4.0,-1.0],
+-          [0.0,-1.0,0.0]]
++kernel = [[0.0,0.0,0.0],
++          [0.0,0.5,0.0],
++          [0.0,0.0,0.0]]
+ 
+ backgroundColor = (0,)*3
+ pixelSize = 10
+diff --git a/keras-cnn/convolution-demo.py b/keras-cnn/convolution-demo.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/dog.jpg b/keras-cnn/dog.jpg
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/inspect-net.py b/keras-cnn/inspect-net.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/maxpool-demo.py b/keras-cnn/maxpool-demo.py
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/puppy.jpg b/keras-cnn/puppy.jpg
+old mode 100644
+new mode 100755
+diff --git a/keras-cnn/wandb/settings b/keras-cnn/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-deep-dream/dream.py b/keras-deep-dream/dream.py
+old mode 100644
+new mode 100755
+diff --git a/keras-encoding/cnn.py b/keras-encoding/cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-encoding/config-defaults.yaml b/keras-encoding/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-encoding/wandb/settings b/keras-encoding/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-fashion/config-defaults.yaml b/keras-fashion/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-fashion/nn.py b/keras-fashion/nn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-fashion/perceptron-linear.py b/keras-fashion/perceptron-linear.py
+old mode 100644
+new mode 100755
+diff --git a/keras-fashion/view-data.py b/keras-fashion/view-data.py
+old mode 100644
+new mode 100755
+diff --git a/keras-fashion/wandb/settings b/keras-fashion/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-gan/gan.py b/keras-gan/gan.py
+old mode 100644
+new mode 100755
+diff --git a/keras-gan/gan2.py b/keras-gan/gan2.py
+old mode 100644
+new mode 100755
+diff --git a/keras-gan/wandb/settings b/keras-gan/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/international-airline-passengers.csv b/keras-lstm/international-airline-passengers.csv
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-gender-predictor.py b/keras-lstm/lstm-gender-predictor.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-generate-text-lstm.py b/keras-lstm/lstm-generate-text-lstm.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-generate-text-rnn.py b/keras-lstm/lstm-generate-text-rnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-imdb-pure-cnn.py b/keras-lstm/lstm-imdb-pure-cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-imdb-sentiment-cnn.py b/keras-lstm/lstm-imdb-sentiment-cnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-imdb-sentiment.py b/keras-lstm/lstm-imdb-sentiment.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-preprocess-text.py b/keras-lstm/lstm-preprocess-text.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-reuters.py b/keras-lstm/lstm-reuters.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-time-series-output.py b/keras-lstm/lstm-time-series-output.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-time-series-stateful.py b/keras-lstm/lstm-time-series-stateful.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-time-series-timesteps.py b/keras-lstm/lstm-time-series-timesteps.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-time-series-window.py b/keras-lstm/lstm-time-series-window.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-train-lstm.py b/keras-lstm/lstm-train-lstm.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-train-rnn.py b/keras-lstm/lstm-train-rnn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/lstm-train.py b/keras-lstm/lstm-train.py
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/ml-terms.txt b/keras-lstm/ml-terms.txt
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/papers.txt b/keras-lstm/papers.txt
+old mode 100644
+new mode 100755
+diff --git a/keras-lstm/wandb/settings b/keras-lstm/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-mlp/config-defaults.yaml b/keras-mlp/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-mlp/dropout.py b/keras-mlp/dropout.py
+old mode 100644
+new mode 100755
+index edc2f7d..b3871f4
+--- a/keras-mlp/dropout.py
++++ b/keras-mlp/dropout.py
+@@ -34,6 +34,8 @@ model.add(Flatten(input_shape=(img_width,img_height)))
+ model.add(Dropout(config.dropout))
+ model.add(Dense(config.hidden_nodes, activation='relu'))
+ model.add(Dropout(config.dropout))
++model.add(Dense(config.hidden_nodes, activation='relu'))
++model.add(Dropout(config.dropout))
+ model.add(Dense(num_classes, activation='softmax'))
+ model.compile(loss='categorical_crossentropy', optimizer=config.optimizer,
+                     metrics=['accuracy'])
+diff --git a/keras-mlp/mlp.py b/keras-mlp/mlp.py
+old mode 100644
+new mode 100755
+diff --git a/keras-mlp/wandb/settings b/keras-mlp/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/autoencoder.py b/keras-perceptron/autoencoder.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/config-defaults.yaml b/keras-perceptron/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/digits.py b/keras-perceptron/digits.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/keras-scikit-learn.py b/keras-perceptron/keras-scikit-learn.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/log-loss.py b/keras-perceptron/log-loss.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/mnist.png b/keras-perceptron/mnist.png
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/one-hot.py b/keras-perceptron/one-hot.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-checkpoint.py b/keras-perceptron/perceptron-checkpoint.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-linear.py b/keras-perceptron/perceptron-linear.py
+old mode 100644
+new mode 100755
+index 52e5c80..adb57b2
+--- a/keras-perceptron/perceptron-linear.py
++++ b/keras-perceptron/perceptron-linear.py
+@@ -26,7 +26,9 @@ num_classes = y_train.shape[1]
+ # create model
+ model=Sequential()
+ model.add(Flatten(input_shape=(img_width,img_height)))
+-model.add(Dense(num_classes))
++# IMPROVEMENT Activation Function - Keras Default "Linear", Classification "Sigmoid"
++#model.add(Dense(num_classes))
++model.add(Dense(num_classes, activation="sigmoid"))
+ model.compile(loss='mse', optimizer='adam',
+                 metrics=['accuracy'])
+ 
+diff --git a/keras-perceptron/perceptron-load.py b/keras-perceptron/perceptron-load.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-log.py b/keras-perceptron/perceptron-log.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-logistic.py b/keras-perceptron/perceptron-logistic.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-normalize.py b/keras-perceptron/perceptron-normalize.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-old-2.py b/keras-perceptron/perceptron-old-2.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-old.py b/keras-perceptron/perceptron-old.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-parallel.py b/keras-perceptron/perceptron-parallel.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-predict.py b/keras-perceptron/perceptron-predict.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-regression.py b/keras-perceptron/perceptron-regression.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-save.py b/keras-perceptron/perceptron-save.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-single-fixed.py b/keras-perceptron/perceptron-single-fixed.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/perceptron-single.py b/keras-perceptron/perceptron-single.py
+old mode 100644
+new mode 100755
+index 8f5b0eb..240deac
+--- a/keras-perceptron/perceptron-single.py
++++ b/keras-perceptron/perceptron-single.py
+@@ -12,6 +12,7 @@ config = run.config
+ 
+ # load data
+ (X_train, y_train), (X_test, y_test) = mnist.load_data()
++print (X_train.shape)
+ 
+ is_five_train = y_train == 5
+ is_five_test = y_test == 5
+diff --git a/keras-perceptron/perceptron.py b/keras-perceptron/perceptron.py
+old mode 100644
+new mode 100755
+diff --git a/keras-perceptron/wandb/settings b/keras-perceptron/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-puzzle/weights-answer.py b/keras-puzzle/weights-answer.py
+old mode 100644
+new mode 100755
+diff --git a/keras-puzzle/weights.py b/keras-puzzle/weights.py
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/config-defaults.yaml b/keras-smile/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/smile-generator.py b/keras-smile/smile-generator.py
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/smile-server-1.py b/keras-smile/smile-server-1.py
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/smile-server-2.py b/keras-smile/smile-server-2.py
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/smile-server-3.py b/keras-smile/smile-server-3.py
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/smile.py b/keras-smile/smile.py
+old mode 100644
+new mode 100755
+diff --git a/keras-smile/wandb/settings b/keras-smile/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/config-defaults.yaml b/keras-transfer/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-1.py b/keras-transfer/dogcat-1.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-bottleneck.py b/keras-transfer/dogcat-bottleneck.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-finetune.py b/keras-transfer/dogcat-finetune.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-generator.py b/keras-transfer/dogcat-generator.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-transfer-and-finetune.py b/keras-transfer/dogcat-transfer-and-finetune.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-transfer-resnet.py b/keras-transfer/dogcat-transfer-resnet.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/dogcat-transfer.py b/keras-transfer/dogcat-transfer.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/elephant.jpg b/keras-transfer/elephant.jpg
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/inception-inspect.py b/keras-transfer/inception-inspect.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/keras-download.py b/keras-transfer/keras-download.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/resnet50-inspect.py b/keras-transfer/resnet50-inspect.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/vgg-inspect.py b/keras-transfer/vgg-inspect.py
+old mode 100644
+new mode 100755
+diff --git a/keras-transfer/wandb/settings b/keras-transfer/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/male.txt b/male.txt
+old mode 100644
+new mode 100755
+diff --git a/movie-reviews-lstm/config-defaults.yaml b/movie-reviews-lstm/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/movie-reviews-lstm/lstm.py b/movie-reviews-lstm/lstm.py
+old mode 100644
+new mode 100755
+diff --git a/movie-reviews-lstm/wandb/settings b/movie-reviews-lstm/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/movie-reviews/data-prep.py b/movie-reviews/data-prep.py
+old mode 100644
+new mode 100755
+diff --git a/movie-reviews/simple-scikit-classifier.py b/movie-reviews/simple-scikit-classifier.py
+old mode 100644
+new mode 100755
+diff --git a/movie-reviews/wandb/settings b/movie-reviews/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-0-Getting-Started.ipynb b/notebooks/Lesson-0-Getting-Started.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-1-Sentiment-Analysis-Data-Exploration.ipynb b/notebooks/Lesson-1-Sentiment-Analysis-Data-Exploration.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-2-Feature-Extraction.ipynb b/notebooks/Lesson-2-Feature-Extraction.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-3-First-Classifier.ipynb b/notebooks/Lesson-3-First-Classifier.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-4-Evaluating-Classifiers.ipynb b/notebooks/Lesson-4-Evaluating-Classifiers.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-5-Improving-Text-Classifier.ipynb b/notebooks/Lesson-5-Improving-Text-Classifier.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/Lesson-6-Natural-Language-Processing.ipynb b/notebooks/Lesson-6-Natural-Language-Processing.ipynb
+old mode 100644
+new mode 100755
+diff --git a/notebooks/images/cross-validation.png b/notebooks/images/cross-validation.png
+old mode 100644
+new mode 100755
+diff --git a/notebooks/images/decision-tree.png b/notebooks/images/decision-tree.png
+old mode 100644
+new mode 100755
+diff --git a/notebooks/images/features.png b/notebooks/images/features.png
+old mode 100644
+new mode 100755
+diff --git a/notebooks/images/kaggle-algorithms.png b/notebooks/images/kaggle-algorithms.png
+old mode 100644
+new mode 100755
+diff --git a/notebooks/images/tweet-transform.png b/notebooks/images/tweet-transform.png
+old mode 100644
+new mode 100755
+diff --git a/notebooks/images/tweets.png b/notebooks/images/tweets.png
+old mode 100644
+new mode 100755
+diff --git a/perceptron-mnist.py b/perceptron-mnist.py
+old mode 100644
+new mode 100755
+diff --git a/requirements.txt b/requirements.txt
+old mode 100644
+new mode 100755
+diff --git a/scikit/classifier-svm.py b/scikit/classifier-svm.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/classifier.py b/scikit/classifier.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/config-defaults.yaml b/scikit/config-defaults.yaml
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-embedding.py b/scikit/cross-validation-embedding.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-lemma-tokenizer.py b/scikit/cross-validation-lemma-tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-log.py b/scikit/cross-validation-log.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-nltk-tokenizer.py b/scikit/cross-validation-nltk-tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-stemmer.py b/scikit/cross-validation-stemmer.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-synsets.py b/scikit/cross-validation-synsets.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-tfidf.py b/scikit/cross-validation-tfidf.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/cross-validation-wandb.py b/scikit/cross-validation-wandb.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/custom-tokenizer.py b/scikit/custom-tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/digits.py b/scikit/digits.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/embedding.py b/scikit/embedding.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/explore-embedding.py b/scikit/explore-embedding.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/feature-extraction-1.py b/scikit/feature-extraction-1.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/feature-extraction-2.py b/scikit/feature-extraction-2.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/feature-extraction-3.py b/scikit/feature-extraction-3.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/feature-selection.py b/scikit/feature-selection.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/grid-search-svm.py b/scikit/grid-search-svm.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/grid-search-wandb.py b/scikit/grid-search-wandb.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/grid-search.py b/scikit/grid-search.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/load-data.py b/scikit/load-data.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/lstm.py b/scikit/lstm.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/ngrams.py b/scikit/ngrams.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pandas-explore.py b/scikit/pandas-explore.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/perceptron-digits.py b/scikit/perceptron-digits.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/perceptron.py b/scikit/perceptron.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pipeline-bigrams-cross-validate.py b/scikit/pipeline-bigrams-cross-validate.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pipeline-bigrams.py b/scikit/pipeline-bigrams.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pipeline-custom-features.py b/scikit/pipeline-custom-features.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pipeline-save.py b/scikit/pipeline-save.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pipeline-server.py b/scikit/pipeline-server.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/pipeline.py b/scikit/pipeline.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/random-search-wandb.py b/scikit/random-search-wandb.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-1.py b/scikit/test-algorithm-1.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-2.py b/scikit/test-algorithm-2.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-3.py b/scikit/test-algorithm-3.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation-dummy.py b/scikit/test-algorithm-cross-validation-dummy.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation-hyper.py b/scikit/test-algorithm-cross-validation-hyper.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation-hyper.py~ b/scikit/test-algorithm-cross-validation-hyper.py~
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation-rf.py b/scikit/test-algorithm-cross-validation-rf.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation-svm.py b/scikit/test-algorithm-cross-validation-svm.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation.py b/scikit/test-algorithm-cross-validation.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-cross-validation.py~ b/scikit/test-algorithm-cross-validation.py~
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-dummy.py b/scikit/test-algorithm-dummy.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/test-algorithm-wandb.py b/scikit/test-algorithm-wandb.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/tokenizer.py b/scikit/tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/tweets.csv b/scikit/tweets.csv
+old mode 100644
+new mode 100755
+diff --git a/scikit/wandb/settings b/scikit/wandb/settings
+old mode 100644
+new mode 100755
+diff --git a/scikit/wandblog.py b/scikit/wandblog.py
+old mode 100644
+new mode 100755
+diff --git a/scikit/wordnet.py b/scikit/wordnet.py
+old mode 100644
+new mode 100755
+diff --git a/tensorflow/cnn.py b/tensorflow/cnn.py
+old mode 100644
+new mode 100755
+diff --git a/tensorflow/keras-tensorflow-export.py b/tensorflow/keras-tensorflow-export.py
+old mode 100644
+new mode 100755
+diff --git a/tensorflow/mult.py b/tensorflow/mult.py
+old mode 100644
+new mode 100755
+diff --git a/tensorflow/perceptron.py b/tensorflow/perceptron.py
+old mode 100644
+new mode 100755
+diff --git a/test-keras.py b/test-keras.py
+old mode 100644
+new mode 100755
+diff --git a/test-scikit.py b/test-scikit.py
+old mode 100644
+new mode 100755
+diff --git a/two-layer.h5 b/two-layer.h5
+old mode 100644
+new mode 100755

@@ -1,0 +1,15 @@
+{"_timestamp": 1525902507, "system.network.recv": 5358400, "system.disk": 32.7, "system.cpu": 62.11, "_wandb": true, "_runtime": 28, "system.network.sent": 163777, "system.memory": 27.74}
+{"_timestamp": 1525902538, "system.network.recv": 9609256, "system.disk": 32.7, "system.cpu": 70.33, "_wandb": true, "_runtime": 58, "system.network.sent": 321183, "system.memory": 28.05}
+{"_timestamp": 1525902568, "system.network.recv": 15688594, "system.disk": 32.7, "system.cpu": 72.74, "_wandb": true, "_runtime": 88, "system.network.sent": 533311, "system.memory": 28.11}
+{"_timestamp": 1525902598, "system.network.recv": 22413082, "system.disk": 32.7, "system.cpu": 70.88, "_wandb": true, "_runtime": 118, "system.network.sent": 722312, "system.memory": 28.17}
+{"_timestamp": 1525902628, "system.network.recv": 29055575, "system.disk": 32.7, "system.cpu": 71.01, "_wandb": true, "_runtime": 148, "system.network.sent": 952033, "system.memory": 27.91}
+{"_timestamp": 1525902658, "system.network.recv": 32198042, "system.disk": 32.7, "system.cpu": 73.23, "_wandb": true, "_runtime": 178, "system.network.sent": 1113646, "system.memory": 28.01}
+{"_timestamp": 1525902688, "system.network.recv": 35488010, "system.disk": 32.7, "system.cpu": 70.53, "_wandb": true, "_runtime": 208, "system.network.sent": 1289872, "system.memory": 27.48}
+{"_timestamp": 1525902718, "system.network.recv": 40519547, "system.disk": 32.7, "system.cpu": 70.04, "_wandb": true, "_runtime": 238, "system.network.sent": 1449732, "system.memory": 27.55}
+{"_timestamp": 1525902748, "system.network.recv": 47285996, "system.disk": 32.7, "system.cpu": 70.23, "_wandb": true, "_runtime": 268, "system.network.sent": 1625609, "system.memory": 27.53}
+{"_timestamp": 1525902778, "system.network.recv": 52817256, "system.disk": 32.7, "system.cpu": 70.69, "_wandb": true, "_runtime": 298, "system.network.sent": 1802475, "system.memory": 27.51}
+{"_timestamp": 1525902808, "system.network.recv": 57720138, "system.disk": 32.7, "system.cpu": 71.09, "_wandb": true, "_runtime": 328, "system.network.sent": 1947426, "system.memory": 27.57}
+{"_timestamp": 1525902838, "system.network.recv": 64331745, "system.disk": 32.7, "system.cpu": 69.04, "_wandb": true, "_runtime": 358, "system.network.sent": 2126709, "system.memory": 27.57}
+{"_timestamp": 1525902868, "system.network.recv": 70363665, "system.disk": 32.7, "system.cpu": 70.96, "_wandb": true, "_runtime": 388, "system.network.sent": 2308713, "system.memory": 27.59}
+{"_timestamp": 1525902898, "system.network.recv": 74624708, "system.disk": 32.7, "system.cpu": 70.49, "_wandb": true, "_runtime": 418, "system.network.sent": 2446893, "system.memory": 27.53}
+{"_timestamp": 1525902914, "system.network.recv": 76856469, "system.disk": 32.7, "system.cpu": 68.29, "_wandb": true, "_runtime": 434, "system.network.sent": 2557690, "system.memory": 27.66}

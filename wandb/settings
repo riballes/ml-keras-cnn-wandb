@@ -1,0 +1,4 @@
+[default]
+entity: trainai
+project: digits
+base_url: https://api.wandb.ai

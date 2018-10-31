@@ -1,0 +1,2 @@
+{"_timestamp": 1525901291, "system.network.recv": 184729, "system.disk": 32.6, "system.cpu": 63.72, "_wandb": true, "_runtime": 28, "system.network.sent": 44452, "system.memory": 23.38}
+{"_timestamp": 1525901301, "system.network.recv": 236384, "system.disk": 32.6, "system.cpu": 52.7, "_wandb": true, "_runtime": 38, "system.network.sent": 53227, "system.memory": 23.48}

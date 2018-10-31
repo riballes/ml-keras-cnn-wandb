@@ -1,0 +1,13 @@
+{"_timestamp": 1525901356, "system.network.recv": 518025, "system.disk": 32.6, "system.cpu": 66.62, "_wandb": true, "_runtime": 28, "system.network.sent": 121222, "system.memory": 23.41}
+{"_timestamp": 1525901386, "system.network.recv": 1070520, "system.disk": 32.6, "system.cpu": 69.87, "_wandb": true, "_runtime": 58, "system.network.sent": 237219, "system.memory": 23.44}
+{"_timestamp": 1525901416, "system.network.recv": 1351029, "system.disk": 32.6, "system.cpu": 68.03, "_wandb": true, "_runtime": 88, "system.network.sent": 304376, "system.memory": 23.87}
+{"_timestamp": 1525901446, "system.network.recv": 1898834, "system.disk": 32.6, "system.cpu": 70.66, "_wandb": true, "_runtime": 118, "system.network.sent": 402023, "system.memory": 24.04}
+{"_timestamp": 1525901476, "system.network.recv": 2168520, "system.disk": 32.6, "system.cpu": 69.04, "_wandb": true, "_runtime": 148, "system.network.sent": 455751, "system.memory": 23.92}
+{"_timestamp": 1525901506, "system.network.recv": 2695870, "system.disk": 32.6, "system.cpu": 71.49, "_wandb": true, "_runtime": 178, "system.network.sent": 560791, "system.memory": 24.5}
+{"_timestamp": 1525901536, "system.network.recv": 2998156, "system.disk": 32.6, "system.cpu": 69.27, "_wandb": true, "_runtime": 208, "system.network.sent": 613653, "system.memory": 24.45}
+{"_timestamp": 1525901566, "system.network.recv": 3568729, "system.disk": 32.6, "system.cpu": 71.63, "_wandb": true, "_runtime": 238, "system.network.sent": 730608, "system.memory": 24.83}
+{"_timestamp": 1525901596, "system.network.recv": 4128581, "system.disk": 32.6, "system.cpu": 70.1, "_wandb": true, "_runtime": 268, "system.network.sent": 838324, "system.memory": 24.77}
+{"_timestamp": 1525901626, "system.network.recv": 4402124, "system.disk": 32.6, "system.cpu": 68.25, "_wandb": true, "_runtime": 298, "system.network.sent": 879745, "system.memory": 24.55}
+{"_timestamp": 1525901656, "system.network.recv": 4688714, "system.disk": 32.6, "system.cpu": 69.69, "_wandb": true, "_runtime": 328, "system.network.sent": 928735, "system.memory": 24.51}
+{"_timestamp": 1525901686, "system.network.recv": 4957578, "system.disk": 32.6, "system.cpu": 67.53, "_wandb": true, "_runtime": 358, "system.network.sent": 962373, "system.memory": 24.55}
+{"_timestamp": 1525901694, "system.network.recv": 5026407, "system.disk": 32.6, "system.cpu": 62.67, "_wandb": true, "_runtime": 366, "system.network.sent": 970524, "system.memory": 24.55}

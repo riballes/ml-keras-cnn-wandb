@@ -1,0 +1,16 @@
+{
+    "username": "root", 
+    "git": {
+        "commit": "699bfa8bd5eebe01cc962c30670c62ecd1ff647f", 
+        "remote": "https://github.com/lukas/ml-class.git"
+    }, 
+    "heartbeatAt": "2018-05-09T21:28:21.729098", 
+    "state": "failed", 
+    "host": "ric-Lemur", 
+    "program": "cnn.py", 
+    "startedAt": "2018-05-09T21:27:43.509773", 
+    "root": "/home/riballes/git-repos/ml-class", 
+    "email": "ricardo.morales.b@gmail.com", 
+    "jobType": "train", 
+    "exitcode": 1
+}
